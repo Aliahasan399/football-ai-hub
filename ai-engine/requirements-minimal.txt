@@ -1,0 +1,13 @@
+# Minimal AI Engine Dependencies — install this first to get the server running
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.5.0
+python-multipart>=0.0.9
+
+# ML dependencies — add these after the server works
+# pip install numpy pandas scikit-learn xgboost shap
+# numpy>=1.26.0
+# pandas>=2.2.0
+# scikit-learn>=1.5.0
+# xgboost>=2.1.0
+# shap>=0.45.0
